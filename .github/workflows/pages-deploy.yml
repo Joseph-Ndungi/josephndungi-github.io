@@ -1,36 +1,37 @@
-# name: "Build and Deploy"
-# on:
-#   push:
-#     branches:
-#       - main
-#       - master
-#     paths-ignore:
-#       - .gitignore
-#       - README.md
-#       - LICENSE
+name: "Build and Deploy"
 
-#   # Allows you to run this workflow manually from the Actions tab
-#   workflow_dispatch:
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
 
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-# # Allow one concurrent deployment
-# concurrency:
-#   group: "pages"
-#   cancel-in-progress: true
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v4
-#         with:
-#           fetch-depth: 0
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
           # submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
@@ -53,8 +54,8 @@
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
-            \-\-disable-external=true \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+            --disable-external=true \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1
