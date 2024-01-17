@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Joseph # the main title
+title: Joseph Ndungi
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: I'm passionate about building high-quality software that solves real-world problems. Always looking for new challenges and opportunities to learn and grow.
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,7 +29,7 @@ github:
   username: Joseph-Ndungi # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: Joseph_Ndungi_ # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,11 +38,11 @@ social:
   email: josephn@innova.co.ke # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/Joseph_Ndungi_ # change to your twitter homepage
+    - https://github.com/Joseph-Ndungi_ # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/joseph-ndungi-91b2a7195/
 
 google_site_verification: # fill in to your verification string
 
@@ -63,7 +63,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode:  [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

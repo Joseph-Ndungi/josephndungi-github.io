@@ -4,14 +4,14 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Joseph Ng'ang'a Ndungi
+# Joseph Ndungi
 **Software Engineer**  
 📍 Nairobi, Kenya | 📞 +254791502604 | 📧 josendungi4@gmail.com | 💼 [LinkedIn](LinkedIn Link) | 🌐 [GitHub](GitHub Link) | 📄 [Resume](Resume Link)
 
 ## 🎓 Education
 **Murang'a University of Technology**  
 *BSc Computer Science*  
-*September 2019 - August 2023*
+*September 2019 - September 2023*
 
 ## 💼 Experience
 **Software Engineer**  
