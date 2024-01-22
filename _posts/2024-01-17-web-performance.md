@@ -98,3 +98,22 @@ To enhance First Input Delay (FID), focus on these key optimizations: Minimize t
 Summarized visual for the above metrics.
 
 ![Google’s Core Web Vitals](https://agencyanalytics.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fdfcvkz6j859j%2F5TqrNxaPi09sdaM26MXEGt%2F05dc5bb819cd6645069e43b1b10d4f3f%2F13_Website_Performance_Metrics_To_Impress-Supporting-2.png&w=3840&q=75 "Google’s Core Web Vitals")
+
+#### More Metrics
+
+**6.Page Load Time**
+This metric measures how long it takes for your client's website to fully render on a user's screen after their initial click.
+
+**7.Time to First Byte (TTFB)**
+TTFB is the duration it takes for a user's browser to obtain a data byte from a web server following a user’s initial click.
+As a benchmark, aim for a time to first byte of no more than 600 milliseconds.
+
+**8.Speed Index**
+Speed Index is the rate at which a webpage loads progressively over time. In contrast to FCP, this metric considers the entire page loading process rather than solely focusing on one part.
+
+**9.Time to Interactive (TTI)**
+TTI is the time it takes for your client’s website to become responsive to user interactions (e.g., getting a successful response after clicking a ‘Download’ button).
+
+While you can’t technically control how your visitors behave on your site, you certainly can optimize content to drive behavior.
+
+
