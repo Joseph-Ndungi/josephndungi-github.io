@@ -28,7 +28,7 @@ The problem that exists is that while our website may behave as expected on our 
 
 This performance metric, known as First Contentful Paint (FCP), gauges the time taken for the initial piece of content on a website - be it text, images, or other elements - to appear on the user's screen.
 
-FCP measures how long it takes the browser to render the first piece of DOM content after a user navigates to your page. Images, non-white <canvas> elements, and SVGs on your page are considered DOM content; anything inside an iframe isn't included.
+FCP measures how long it takes the browser to render the first piece of DOM content after a user navigates to your page. Images, non-white canvas elements, and SVGs on your page are considered DOM content; anything inside an iframe isn't included.
 
 FCP plays a significant role in shaping a user's perception of the page's loading speed, making its optimization vital.
 
@@ -36,9 +36,9 @@ It's important to aim for an FCP of 1.8 seconds or less for client websites to e
 
 #### 2. First Meaningful Paint (FMP)
 
-Sounds pretty similar to First Contentful Paint (FCP), right? There’s a key difference. 
+Sounds pretty similar to First Contentful Paint (FCP), right? There’s a key difference.
 
-As the name suggests, FMP is how long it takes for the first meaningful content to display (i.e., whatever users actually want to view). 
+As the name suggests, FMP is how long it takes for the first meaningful content to display (i.e., whatever users actually want to view).
 
 This value is often the same as First Contentful Paint (FCP) but varies based on your client’s website.
 
@@ -46,7 +46,7 @@ This value is often the same as First Contentful Paint (FCP) but varies based on
 
 This perceived performance metric is the time it takes for the largest piece of content to load on your client’s website (e.g., a video embed, image slideshow, text body).
 
-It’s worth noting that LCP falls under Google’s Core Web Vitals, which means it directly impacts a website’s performance on Google search results. 
+It’s worth noting that LCP falls under Google’s Core Web Vitals, which means it directly impacts a website’s performance on Google search results.
 
 It makes sense when you think about it. LCP is useful for a website visitor to gauge how long they’ll have to wait to access your client’s full website (which often determines whether they’ll stay or not).
 
