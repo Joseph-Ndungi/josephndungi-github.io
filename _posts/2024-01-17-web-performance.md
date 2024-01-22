@@ -116,4 +116,7 @@ TTI is the time it takes for your client’s website to become responsive to use
 
 While you can’t technically control how your visitors behave on your site, you certainly can optimize content to drive behavior.
 
+## References
 
+1. <https://web.dev/articles/vitals>
+2. <https://newsletter.unstacked.dev/p/web-performance-key-metrics-to-ensure>
