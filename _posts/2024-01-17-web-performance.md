@@ -20,11 +20,7 @@ Maintaining optimal performance is relatively straightforward for basic websites
 
 The problem that exists is that while our website may behave as expected on our devices, our users won’t be accessing the device from our devices, but their own and under different circumstances.
 
-<!-- ![It works on my machine](https://hackernoon.imgix.net/hn-images/1*ookfwogTLx_1qhHaiFJoJw.png "Your machine isn’t the real world") -->
-
-
-<img src="https://hackernoon.imgix.net/hn-images/1*ookfwogTLx_1qhHaiFJoJw.png" alt="It works on my machine" title="Your machine isn’t the real world" width="100%" height="100%" />
-
+![It works on my machine](https://hackernoon.imgix.net/hn-images/1*ookfwogTLx_1qhHaiFJoJw.png "Your machine isn’t the real world")
 
  In light of this, I have put together a selection of key metrics that are essential for evaluating the performance of websites
 
@@ -36,7 +32,23 @@ FCP measures how long it takes the browser to render the first piece of DOM cont
 
 FCP plays a significant role in shaping a user's perception of the page's loading speed, making its optimization vital.
 
-It's important to aim for an FCP of 2.5 seconds or less for client websites to ensure optimal performance.
+It's important to aim for an FCP of 1.8 seconds or less for client websites to ensure optimal performance.
+
+#### 2. First Meaningful Paint (FMP)
+
+Sounds pretty similar to First Contentful Paint (FCP), right? There’s a key difference. 
+
+As the name suggests, FMP is how long it takes for the first meaningful content to display (i.e., whatever users actually want to view). 
+
+This value is often the same as First Contentful Paint (FCP) but varies based on your client’s website.
+
+#### 3. Largest Contentful Paint (LCP)
+
+This perceived performance metric is the time it takes for the largest piece of content to load on your client’s website (e.g., a video embed, image slideshow, text body).
+
+It’s worth noting that LCP falls under Google’s Core Web Vitals, which means it directly impacts a website’s performance on Google search results. 
+
+It makes sense when you think about it. LCP is useful for a website visitor to gauge how long they’ll have to wait to access your client’s full website (which often determines whether they’ll stay or not).
 
 When you measure LCP either using Lighthouse or PageSpeed Insight, it usually provides a list of reasons why your LCP was given a certain score and how you can optimize for it.
 **Some of the common things you can do to optimize for LCP.**
@@ -50,6 +62,11 @@ Load critical resources affecting LCP as soon as possible. Browsers have a prelo
 ***Prioritize Key Resources***
 Ensure important resources load first. Use the `fetchpriority="high"` attribute for essential images. De-prioritize less critical resources to conserve bandwidth.
 
+'''
+<img fetchpriority="high" src="/path/"
+
+'''
+
 ***Other Optimizations***
 
 - Switch to modern image formats like WebP, ideally using an image CDN for format compatibility.
@@ -59,4 +76,30 @@ Ensure important resources load first. Use the `fetchpriority="high"` attribute 
 - Eliminate unnecessary CSS and JavaScript.
 - Optimize font sizes for efficiency.
 
-#### 2. First Meaningful Paint (FMP)
+#### 4. Cumulative Layout Shift (CLS)
+
+Similar to Largest Contentful Paint, CLS also falls in the Google Core Web Vitals bucket.
+Users often find it annoying when content they are reading suddenly shifts to a different spot on the page. This can happen due to images loading and pushing down existing content or dynamic additions like ads that force content to move.
+
+As developers, we might not notice these shifts easily, especially if we're using fast internet connections where images load quickly or are already cached, making our testing less representative of actual user experience.
+
+Cumulative Layout Shift (CLS) is a crucial metric that tracks these unexpected layout shifts over a webpage's life. A layout shift happens when visible elements move abruptly. CLS gives insight into how frequently this occurs on a webpage.
+
+There are two kinds of layout shifts:
+
+1. **Unexpected Layout Shift**: This is unintentional and occurs without the developer's design intent. It negatively impacts the user experience.
+2. **Expected Layout Shift**: This is intentional, usually triggered by user actions, like clicking a button to reveal more content or animations.
+
+The goal is to have no layout shifts on your webpage. However, a CLS score of 0.1 or less for 75% of all page loads is considered acceptable.
+
+To optimize for CLS, ensure that all your images have a fixed height and width, or add aspect ratio to them, so that the browser can reserve a place for them in the rendered page.
+
+#### 5. First Input Delay (FID)
+
+Wrapping up Google’s Core Web Vitals is First Input Delay (FID). Have you ever been to a website where, after it finished loading, there was a noticeable delay when you tried to click a link or a button? This delay is what First Input Delay (FID) measures. FID tracks the time it takes for a webpage to respond to user interactions like clicks, taps, or key presses while it's still loading. To achieve a good FID score, the response time should be 100 milliseconds or less.
+
+To enhance First Input Delay (FID), focus on these key optimizations: Minimize the initial load of JavaScript, use Web Workers for complex tasks to free up the main thread, implement on-demand script loading, defer non-critical scripts with the `defer` attribute, employ code-splitting and lazy loading techniques for efficient script management, and reduce the usage of pollyfills to lighten the JavaScript load.
+
+Summarized visual for the above metrics.
+
+![Google’s Core Web Vitals](https://agencyanalytics.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fdfcvkz6j859j%2F5TqrNxaPi09sdaM26MXEGt%2F05dc5bb819cd6645069e43b1b10d4f3f%2F13_Website_Performance_Metrics_To_Impress-Supporting-2.png&w=3840&q=75 "Google’s Core Web Vitals")
