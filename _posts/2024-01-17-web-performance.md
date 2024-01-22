@@ -51,6 +51,7 @@ Load critical resources affecting LCP as soon as possible. Browsers have a prelo
 Ensure important resources load first. Use the `fetchpriority="high"` attribute for essential images. De-prioritize less critical resources to conserve bandwidth.
 
 ***Other Optimizations***
+
 - Switch to modern image formats like WebP, ideally using an image CDN for format compatibility.
 - Implement responsive images to suit different screen sizes.
 - Compress images to reduce size without losing quality.
@@ -58,4 +59,4 @@ Ensure important resources load first. Use the `fetchpriority="high"` attribute 
 - Eliminate unnecessary CSS and JavaScript.
 - Optimize font sizes for efficiency.
 
-#### 1. First Meaningful Paint (FMP)
+#### 2. First Meaningful Paint (FMP)
