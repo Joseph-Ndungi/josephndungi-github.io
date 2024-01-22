@@ -62,11 +62,6 @@ Load critical resources affecting LCP as soon as possible. Browsers have a prelo
 ***Prioritize Key Resources***
 Ensure important resources load first. Use the `fetchpriority="high"` attribute for essential images. De-prioritize less critical resources to conserve bandwidth.
 
-'''
-<img fetchpriority="high" src="/path/"
-
-'''
-
 ***Other Optimizations***
 
 - Switch to modern image formats like WebP, ideally using an image CDN for format compatibility.
