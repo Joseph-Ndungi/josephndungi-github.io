@@ -6,7 +6,7 @@ order: 4
 
 # Joseph Ndungi
 **Software Engineer**  
-📍 Nairobi, Kenya | 📞 +254791502604 | 📧 josendungi4@gmail.com | 💼 [LinkedIn](LinkedIn Link) | 🌐 [GitHub](GitHub Link) | 📄 [Resume](Resume Link)
+📍 Nairobi, Kenya | 📞 +254791502604 | 📧 josendungi4@gmail.com | 💼 [LinkedIn](https://www.linkedin.com/in/joseph-ndungi-91b2a7195/) | 🌐 [GitHub](https://github.com/Joseph-Ndungi) | 📄 [Resume](https://docs.google.com/document/d/1Nf5ZMkZtM6djM-P0jxkN7QnhL9iCpWgOhc3GiwHf8cY/edit?usp=sharing)
 
 ## 🎓 Education
 **Murang'a University of Technology**  
@@ -15,7 +15,7 @@ order: 4
 
 ## 💼 Experience
 **Software Engineer**  
-*Innova, Kilimani, Nairobi, Kenya*  
+*[Innova](innova.co.ke), Kilimani, Nairobi, Kenya*  
 *June 2022 - Present*
 
 - Developed an internal tool to facilitate team interaction with input data for the analytics core system.
@@ -35,5 +35,5 @@ order: 4
 - Passion for continuous learning and staying up-to-date with the latest industry trends.
 
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip } -->
