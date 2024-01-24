@@ -1,5 +1,3 @@
-# Web Performance - Key metrics to ensure your website is Performant
-
 ## Web performance is all about making websites fast, including making slow processes seem fast
 
 In essence, web performance is about both the measurable aspects and the user's perceived experience when interacting with a site or app
