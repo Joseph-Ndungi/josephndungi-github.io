@@ -14,6 +14,18 @@ In essence, web performance is about both the measurable aspects and the user's 
 
 5. **Performance Measurements**: We delve into various metrics and tools for measuring and optimizing web performance, ensuring that the site not only performs well but continues to do so over time.
 
+### How content is rendered
+
+**How the browser works.** When you request a URL and hit Enter / Return , the browser finds out where the server is that holds that website's files, establishes a connection to it, and requests the files.
+
+**Source order.** When a browser reads your index file, it usually downloads additional files one after the other, following the order they appear in the code. However, this order can be changed to improve performance. It's important to optimize it, as some files may delay the download of others until they are fully processed and executed.
+
+**Critical path.** This is how the browser puts together the web page after getting the files from the server. The browser has specific steps it follows, and if we make sure to prioritize showing the most important content related to what the user is doing, it will make the web page load much faster.
+
+**DOM.** The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. Usually it refers to JavaScript, even though modeling HTML, SVG, or XML documents as objects are not part of the core JavaScript language.
+
+**Latency** Latency is generally considered to be the amount of time it takes from when a request is made by the user to the time it takes for the response to get back to that user.The latency associated with a single asset, especially a basic HTML page, may seem trivial. But websites generally involve multiple requests: the HTML includes requests for multiple CSS, scripts, and media files. The greater the number and size of these requests, the greater the impact of high latency on user experience.
+
 Maintaining optimal performance is relatively straightforward for basic websites. However, the task becomes more challenging with intricate web applications, where delivering a consistently smooth user experience is crucial.
 
 The problem that exists is that while our website may behave as expected on our devices, our users won’t be accessing the device from our devices, but their own and under different circumstances.
