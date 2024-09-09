@@ -210,3 +210,9 @@ except Exception:
 * Raise exceptions at the earliest opportunity: Check for errors and unusual conditions early in your code. This approach, known as "fail fast," enhances efficiency by preventing unnecessary operations if an error is detected early.
 
 * Document exceptions in your code: Clearly document any exceptions your code may raise, describing each one. This transparency helps other developers anticipate and handle potential errors effectively.
+
+## References
+
+1. <https://realpython.com/python-raise-exception/>
+2. <https://medium.com/@saadjamilakhtar/5-best-practices-for-python-exception-handling-5e54b876a20>
+3. <https://www.w3schools.com/python/python_try_except.asp#:~:text=The%20try%20block%20lets%20you,the%20try%2D%20and%20except%20blocks>.
