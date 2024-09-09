@@ -215,4 +215,4 @@ except Exception:
 
 1. <https://realpython.com/python-raise-exception/>
 2. <https://medium.com/@saadjamilakhtar/5-best-practices-for-python-exception-handling-5e54b876a20>
-3. <https://www.w3schools.com/python/python_try_except.asp#:~:text=The%20try%20block%20lets%20you,the%20try%2D%20and%20except%20blocks>.
+3. <https://www.w3schools.com/python/python_try_except.asp#:~:text=The%20try%20block%20lets%20you,the%20try%2D%20and%20except%20blocks.>
