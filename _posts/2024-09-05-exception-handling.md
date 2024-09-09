@@ -34,18 +34,18 @@ The else block lets you execute code when there is no error.
 
 The finally block lets you execute code, regardless of the result of the try- and except blocks.
 
-## Syntax and usage of try-except blocks
+### Syntax and usage of try-except blocks
 
 Python typically stops and outputs an error message when an error—or exception, as we call it—occurs.
 
 These exceptions can be handled using the try statement:
 
-'''
+```python
 try:
   print(x)
 except:
   print("An exception occurred")
-'''
+```
 
 Since the try block raises an error, the except block will be executed.
 
@@ -53,7 +53,7 @@ Without the try block, the program will crash and raise an error.
 
 You can define as many exception blocks as you want.  
 
-'''
+```python
 try:
     # Code that may raise a specific exception
     ...
@@ -65,11 +65,11 @@ except AnotherSpecificException as e:
     ...
 except Exception as e:
     # Handle other exceptions or provide a fallback behavior
-'''
+```
 
 Example
 
-'''
+```python
 try:
     with open('data.csv', 'r') as file:
         csv_reader = csv.reader(file)
@@ -87,4 +87,66 @@ except ValueError:
     print("Invalid value encountered during calculations.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
-'''
+```
+
+### Using finally for cleanup operations
+
+The finally block, if specified, will be executed regardless if the try block raises an error or not.
+
+```python
+try:
+  print(x)
+except:
+  print("Something went wrong")
+finally:
+  print("The 'try except' is finished")
+```
+
+This can be useful to close objects and clean up resources:
+
+```python
+try:
+  f = open("demofile.txt")
+  try:
+    f.write("Lorum Ipsum")
+  except:
+    print("Something went wrong when writing to the file")
+  finally:
+    f.close()
+except:
+  print("Something went wrong when opening the file")
+```
+
+The program can continue, without leaving the file object open.
+
+### When to use the else clause in error handling
+
+You can use the else keyword to define a block of code to be executed if no errors were raised:
+
+```python
+try:
+  print("Hello")
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
+```
+
+## Raising and Handling Custom Exceptions
+
+Creating a custom exception is a straightforward process you can do it by subclassing the Exception class. This allows you to define errors that are specific to your application or module enabling you to distinguish them from standard Python exceptions and handle them differently.
+
+```python
+class CustomException(Exception):
+    pass
+
+try:
+    if condition:
+        raise CustomException("Something went wrong!")
+except CustomException as e:
+    # Handle the custom exception
+    ...
+except Exception as e:
+    # Handle other exceptions or provide a fallback behavior
+    ...
+```
