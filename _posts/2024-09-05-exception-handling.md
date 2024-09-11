@@ -1,5 +1,7 @@
 # Exception Handling
 
+![Effective Exception Handling in Python](../assets/images/Joseph%20Ndungi.jpg)
+
 Writing dependable and sturdy code is essential to ensure that your applications can gracefully manage unexpected errors and prevent crashes. This is where error handling becomes important. In this guide we will delve into the realm of exceptions covering types of exceptions how to raise and handle them and the best practices for error management in Python.
 
 Exceptions are interruptions, in a programs flow caused by issues like incorrect data, input mistakes in file handling or other unforeseen challenges during runtime. When these exceptions arise they disrupt the programs execution. Without mechanisms in place Python programs would abruptly stop when encountering an error. However by using tools such as the try except block we can effectively manage these exceptions and respond accordingly.
