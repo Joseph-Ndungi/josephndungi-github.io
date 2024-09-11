@@ -1,6 +1,8 @@
 # Exception Handling
 
-![Effective Exception Handling in Python](../assets/images/Joseph%20Ndungi.jpg)
+![Effective Exception Handling in Python](../assets/images/Joseph_Ndungi.jpg)
+![Effective Exception Handling in Python]([../assets/images/Joseph_Ndungi.jpg](https://drive.google.com/file/d/12zKWWY77CJcFHr4GJkBFSDXFE44PC8Mg/view?usp=drive_link))
+
 
 Writing dependable and sturdy code is essential to ensure that your applications can gracefully manage unexpected errors and prevent crashes. This is where error handling becomes important. In this guide we will delve into the realm of exceptions covering types of exceptions how to raise and handle them and the best practices for error management in Python.
 
