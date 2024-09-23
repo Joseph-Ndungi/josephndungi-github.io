@@ -15,7 +15,7 @@ APIs, which stand for Application Programming Interfaces, play a role, in shapin
 * Mass Assignment
 * Injection
 
-**A BOLA API vulnerability** happens when information in an object is not properly safeguarded. This occurs when the server doesn't fully adhere to the state of the client and instead relies more on the object IDs provided by the client to determine which object to access.
+**1. A BOLA API vulnerability** happens when information in an object is not properly safeguarded. This occurs when the server doesn't fully adhere to the state of the client and instead relies more on the object IDs provided by the client to determine which object to access.
 
 For instance if a users information isn't securely shielded in an API response sent back to their browser or mobile device attackers could exploit this data to impersonate the legitimate user and gain entry, to their account. Such vulnerabilities are prevalent in applications that utilize APIs.
 
@@ -23,7 +23,7 @@ For instance if a users information isn't securely shielded in an API response s
 
 One way to prevent BOLA attacks is by implementing an API security solution that can understand the specific logic of an API and identify when an authenticated user attempts to access data belonging to another user without permission
 
-**Broken User Authentication**
+**2. Broken User Authentication**
 
 Broken Authentication and Session Management is a security vulnerability that occurs when the authentication and session management mechanisms of a web application are flawed or improperly implemented.
 
@@ -33,7 +33,7 @@ The flaw in a web applications authentication and session management systems is 
 
 To ensure API security it's crucial to analyze the standard authentication process for each key workflow. This allows for the identification of activities such, as authentication requests that deviate from the usual order.
 
-**Improper Asset Management**
+**3. Improper Asset Management**
 Hackers discover less secure versions of the API, such as staging, testing, beta or older releases that lack the same level of security as the production API. They exploit these vulnerabilities to carry out their attacks.
 
 In modern environments with DevOps, cloud infrastructure, containers, and Kubernetes, managing multiple deployments—such as development, testing, feature branches, staging, and older versions—is simplified. However, the need to maintain backward compatibility often results in outdated APIs remaining operational. These old or non-production versions are frequently neglected in terms of security and maintenance, despite having access to production data. As a result, once an attacker authenticates through a vulnerable endpoint, they may exploit this by switching to more secure production endpoints, posing a significant security risk.
@@ -41,7 +41,7 @@ In modern environments with DevOps, cloud infrastructure, containers, and Kubern
 *Is there a way to stop it?*
 To safeguard your systems stay on top of your inventory of API hosts. Restrict access to sensitive information that shouldn't be publicly available. Control access to production data and separate it from non production data. Introduce external security measures like API firewalls. Ensure proper decommissioning of versions of APIs or apply security patches to them. Enforce authentication protocols, redirect mechanisms CORS policies and similar safeguards.
 
-**Lack of Resources & Rate Limiting**
+**4. Lack of Resources & Rate Limiting**
 Scenario of use
 Malicious actors overwhelm the API with a flood of requests beyond its capacity to manage.
 They bombard the API with requests faster than it can process them causing congestion.
@@ -50,15 +50,15 @@ The request sizes or certain fields within them surpass the APIs processing capa
 
 Here are some strategies to enhance security for your API. Establish rate limiting to control the number of requests from users. Set restrictions on the size of incoming payloads. Customize the rate limiting based on the specific API methods, clients or IP addresses that require access. Implement checks on compression ratios to prevent abuse. Lastly define resource limits for your containers to ensure efficient usage.
 
-**Mass Assignment**
+**5. Mass Assignment**
 Mass Assignment allows users to submit data that is then used to update the corresponding model attributes with ease. It streamlines the process, enabling developers to set multiple attributes of a model using a single request, which significantly enhances efficiency and user experience.
 
 However, behind this seemingly convenient feature lies a potential Pandora's box. If not handled diligently, Mass Assignment can become a lurking vulnerability, granting unauthorized users access to sensitive areas and the ability to tamper with critical data. One wrong move and your application might be susceptible to data breaches, malicious exploits, and even complete system compromise
 
-*Is there a way to stop it?* 
+*Is there a way to stop it?*
 An API security solution capable of continuously mapping behavior patterns and detecting anomalies beyond the norm should have the ability to identify the information gathering stage of a potential attacker.
 
-**Injection**
+**6. Injection**
 
 Injection consists of sending an API malicious commands through a user input field, whether a text input, file upload, or other means. This attack vector allows malicious actors to send code or other executable commands to the API’s interpreter, which can be used to bypass security, change permissions, access information, damage, or disable the API. Common injections include cross-site scripting (XSS), SQL injections, and template injections.
 
