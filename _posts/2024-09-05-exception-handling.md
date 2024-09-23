@@ -1,3 +1,12 @@
+---
+title: "Exception Handling"
+date: 2024-09-05
+categories: [Error Handling]
+tags: [https://www.innova.co.ke/advanced-exception-handling-in-python/]
+canonical_url: "
+https://joseph-ndungi.github.io/josephndungi-github.io/posts/exception-handling/"
+---
+
 # Exception Handling
 
 ![Effective Exception Handling in Python](https://i.imgur.com/uJbhxej.jpeg)
