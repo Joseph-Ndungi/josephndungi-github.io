@@ -139,3 +139,8 @@ Impact: Thankfully, there’s no evidence that the attacker accessed the content
 ### Conclusion
 
 With the rising significance of APIs in facilitating data exchange, authentication and authorization comes an increased risk of exploitation by malicious individuals. The impact of API vulnerabilities can be serious leading to financial setbacks privacy breaches and identity theft. It is crucial for developers, security experts and organizations to prioritize API security through measures like robust authentication, encryption, rate limiting and routine vulnerability assessments to mitigate the chances of misuse. This proactive approach helps safeguard sensitive data uphold user trust and preserve the integrity of our digital environments.
+
+### References
+
+<https://www.altimetrik.com/blog/api-vulnerabilities-growing-concern/#:~:text=API%20Vulnerability%3A%20The%20breach%20occurred,and%20multi%2Dfactor%20authentication%20details>.
+<https://apimike.com/api-vulnerabilities>
