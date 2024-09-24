@@ -142,5 +142,5 @@ With the rising significance of APIs in facilitating data exchange, authenticati
 
 ### References
 
-<https://www.altimetrik.com/blog/api-vulnerabilities-growing-concern/#:~:text=API%20Vulnerability%3A%20The%20breach%20occurred,and%20multi%2Dfactor%20authentication%20details>.
-<https://apimike.com/api-vulnerabilities>
+1. <https://www.altimetrik.com/blog/api-vulnerabilities-growing-concern/#:~:text=API%20Vulnerability%3A%20The%20breach%20occurred,and%20multi%2Dfactor%20authentication%20details>.  
+2. <https://apimike.com/api-vulnerabilities>
