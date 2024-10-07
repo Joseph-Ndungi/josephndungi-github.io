@@ -1,3 +1,11 @@
+---
+title: "Portfolio Optimization"
+date: 2024-10-03
+categories: [Analytics]
+tags: [Portfolio Optimization, analytics]
+canonical_url: "https://www.innova.co.ke/portfolio-optimization/"
+---
+
 # Portfolio Optimization
 
 ## Introduction
