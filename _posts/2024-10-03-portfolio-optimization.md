@@ -20,7 +20,8 @@ This is to say that the impact of the low performance of one asset would not res
 
 Step 1: Selection of Asset classes: Portfolio managers first choose asset classes for investing the client’s or investor’s funds. ​
 
-This selection depends upon the factors like the expected rate of return needed by the investor and the risk appetite of the investor.
+This selection depends upon the factors like the expected rate of return needed by the investor and the risk appetite of the investor.  
+
 Step 2: Selection of Assets within the class: The portfolio manager will choose how much bonds or equity will be included in the portfolio. ​
 
 What kinds of shares will form part of the equities in the portfolio, and how much money will be invested in real estate and fixed-interest securities? This choice is also based on the risk-return relationship chosen by the investor.
