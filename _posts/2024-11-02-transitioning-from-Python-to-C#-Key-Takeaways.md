@@ -85,10 +85,6 @@ The .NET ecosystem (which supports C#) is known for its extensive libraries, too
 
 When I first transitioned to C# after learning Python, I encountered a few challenges, but my background in Python provided a solid foundation. Since Python was my first language, I might be a bit biased, but it certainly made learning programming concepts easier due to its simplicity and readability.
 
-**9. Personal Experience and Tips:**
-
-When I first transitioned to C# after learning Python, I encountered a few challenges, but my background in Python provided a solid foundation. Since Python was my first language, I might be a bit biased, but it certainly made learning programming concepts easier due to its simplicity and readability.
-
 I’ll admit, I’m still sticking with Visual Studio Code, and I get a few strays about it! 😅 I handle all my package management through the console, but when things get complicated, I switch over to Visual Studio just to make it easier. All my coding, though, is done in the text editor.
 
 **Tips for Other Developers Switching to C# or any other language**
