@@ -13,19 +13,19 @@ Both of these languages enjoy considerable popularity; however, determining whic
 
 Python and C# are both widely recognized programming languages; however, they operate in distinct ways that are crucial to understand. Knowing these differences can significantly influence your choice of language. In this article, we will explore the primary distinctions between Python and C#, particularly regarding typing and compilation.
 
-Python is characterized as a *dynamically typed* language, which implies that the type of a variable (such as a number or a string) is determined during run-time. Because of this, Python tends to be more accessible to write and comprehend, especially for those who are just starting out. C#, on the other hand, is a *statically typed* language. This means that the type of a variable is established prior to execution. This feature is beneficial because it aids in identifying errors early in the development process and enhances overall performance.
+Python is characterized as a *dynamically typed* language, which implies that the type of a variable (such as a number or a string) is determined during runtime. Because of this, Python tends to be more accessible to write and comprehend, especially for those who are just starting out. C#, on the other hand, is a *statically typed* language. This means that the type of a variable is established prior to execution. This feature is beneficial because it aids in identifying errors early in the development process and enhances overall performance.
 
 In terms of compilation, Python is classified as an *interpreted* language, allowing developers to test and rectify code promptly throughout the development phase. C#, however, is a *compiled* language, meaning it undergoes conversion into machine code before execution. This distinction results in C# programs generally executing more rapidly and efficiently than their Python counterparts.
 
 ### 1. Typing
 
-C# is a static-type language meaning that the type of a variable is identified at compile time.  while python language is a dynamic-type language; this implies that (2) the type of a variable is ascertained at run-time. 
+C# is a static-type language meaning that the type of a variable is identified at compile time.  while python language is a dynamic-type language; this implies that (2) the type of a variable is ascertained at runtime.
 
 ### 2. Interpretation and Compilation
 
 Python's interpreted nature (which is noteworthy) means that its source code is executed line by line; this facilitates easier testing and debugging during development. However, this can be beneficial for quickly iterating and making changes to the code, because it allows developers to see the results of their modifications in real-time.
 
-C# (a compiled language) takes the source code and transforms it into machine code that the processor can subsequently interpret. This conversion results in enhanced run-time performance, especially when compared to interpreted languages (such as Python). However, some might argue that the compilation process introduces a longer initial development time
+C# (a compiled language) takes the source code and transforms it into machine code that the processor can subsequently interpret. This conversion results in enhanced runtime performance, especially when compared to interpreted languages (such as Python). However, some might argue that the compilation process introduces a longer initial development time
 
 ### 3. Performance and Speed  
   
