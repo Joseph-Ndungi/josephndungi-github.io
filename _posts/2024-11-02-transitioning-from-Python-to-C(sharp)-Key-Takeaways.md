@@ -1,3 +1,11 @@
+---
+title: "Transitioning from TypeScript and Python to C#"
+date: 2024-11-02
+categories: [Python]
+tags: [Python and C#]
+canonical_url: ""
+---
+
 # Transitioning from TypeScript and Python to C#: Key Takeaways
 
 Transitioning to .NET over the past few months and diving into C# to create web APIs has been an exciting shift from my journey with TypeScript and Python. I’ve been using ASP.NET Core for minimal APIs, specifically leveraging the ICarterModule. In Python, I've worked with both Django and Flask, which has given me a strong foundation to appreciate the differences and advantages of each framework.
@@ -99,7 +107,7 @@ While transitioning can be challenging, mastering a second language builds flexi
 
 When deciding (between Python and C#), it's crucial to consider factors such as project requirements, personal preferences and career goals. By evaluating these aspects (and recognizing the key differences) between the two languages, you can make a well-informed choice that aligns with your needs (and aspirations). However, this process can be challenging because preferences vary. Although both languages serve unique purposes, understanding their distinctions is essential for making an optimal decision.
 
-In summary, my experience has shown that while I currently work in a purely .NET environment, the company's standards also play a significant role in my development work. I initially joined as an intern and luckily a client specifically requested a Python-based tool, which was a fortunate opportunity for me. However, I realized that to stay relevant in my career, I needed to learn .NET, and that transition has been both interesting and rewarding.  
+In summary, my experience has shown that while I currently work in a purely .NET environment, the company's standards also play a significant role in my development work. I initially joined as an intern and luckily a client specifically requested a Python-based tool, which was a fortunate opportunity for me. However, I realized that to stay relevant, I needed to learn .NET, and that transition has been both interesting and rewarding.  
 I already have a project in production, which speaks to the success of that shift.
 
 Happy coding!
