@@ -1,4 +1,4 @@
-# **When the Demo Gods Smile: A Week of ICRAT Success in Kigali**
+# **When the Demo Gods Smile**
 
 **Respecting the Demo Gods: Preparation and Triumph in Client-Facing Missions**
 
