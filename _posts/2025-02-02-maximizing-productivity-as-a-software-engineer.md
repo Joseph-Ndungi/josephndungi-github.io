@@ -9,7 +9,7 @@ canonical_url: "https://blogs.innova.co.ke/maximizing-productivity-as-a-software
 
 ## **Introduction**  
 
-<!-- This blog post was originally posted [here](<https://blogs.innova.co.ke/maximizing-productivity-as-a-software-engineer/>). -->
+This blog post was originally posted [here](<https://blogs.innova.co.ke/maximizing-productivity-as-a-software-engineer/>).
 
 Staying productive as a software engineer can be challenging. Writing code requires deep focus, but distractions, meetings, and mental fatigue can make it hard to stay efficient. Working from home most of the time adds another layer of difficulty—it's easy to lose track of time, overwork, or get distracted.  
 
