@@ -3,7 +3,7 @@ title: "A Beginner’s Guide to Working with User Feedback and the Production Wo
 date: 2024-12-03
 categories: [Software Development, Feedback Management]
 tags: [User Feedback, Bug Tracking, Feature Requests]
-canonical_url: ""
+canonical_url: "https://blogs.innova.co.ke/a-beginner's-guide-to-working-with-user-feedback-and-the-production-workflow/"
 ---
 
 

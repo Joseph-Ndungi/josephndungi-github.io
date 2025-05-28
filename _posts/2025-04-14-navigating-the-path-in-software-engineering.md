@@ -3,7 +3,7 @@ title: "Navigating the Path in Software Engineering"
 date: 2025-04-14
 categories: [Software Engineering]
 tags: [Career]
-canonical_url: ""
+canonical_url: "https://dev.to/josephndungi/the-pressure-is-real-1m91"
 ---
 
 # From Junior to Senior: Navigating the Path in Software Engineering

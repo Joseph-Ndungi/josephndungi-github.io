@@ -1,3 +1,10 @@
+---
+title: "To Cache or Not to Cache: Tradeoffs Between In-Memory Checks and Database Queries"
+date: 2025-05-10
+categories: [Scaling]
+tags: [Scaling]
+canonical_url: "https://dev.to/josephndungi/tradeoffs-between-in-memory-checks-and-database-queries-4egc"
+---
 
 # To Cache or Not to Cache: Tradeoffs Between In-Memory Checks and Database Queries
 

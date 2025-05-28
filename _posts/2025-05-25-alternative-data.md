@@ -3,7 +3,7 @@ title: "Alternative Data – The New Frontier in Financial Intelligence"
 date: 2025-05-25
 categories: [FinTech, Banking]
 tags: [Credit]
-canonical_url: ""
+canonical_url: "https://blogs.innova.co.ke/alternative-data/"
 ---
 
 # Alternative Data – The New Frontier in Financial Intelligence
