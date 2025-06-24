@@ -1,6 +1,6 @@
 ---
 title: "Web API Testing: Building Trust Through Automation"
-date: 2025-03=31
+date: 2025-03-31
 categories: [Testing]
 tags: [Automation]
 canonical_url: "https://blogs.innova.co.ke/web-api-testing/"
